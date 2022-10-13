@@ -34,5 +34,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "auto": "^10.37.6",
+    "postcss": "^8.4.17",
+    "prefixer": "^0.0.3",
+    "tailwind": "^4.0.0"
   }
 }
