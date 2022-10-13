@@ -17,7 +17,7 @@ const RandomGen = () => {
         onClick={() => getRandomNumber()}
         className='border-2 border-white text-white mt-4 ml-20'
       >
-        Click Me
+        Click Here
       </button>
     </div>
   );
