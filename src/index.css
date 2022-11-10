@@ -20,7 +20,7 @@ body {
 }
 @layer components {
   .text {
-    @apply border-2 border-white text-white mt-4 ml-20;
+    @apply border-2 border-white text-white mt-4  p-2;
   }
   .center {
     @apply flex flex-col items-center justify-center;

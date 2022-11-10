@@ -9,12 +9,22 @@ const RandomGen = () => {
   };
   return (
     <div className='center'>
-      <div className='border-2 border-white w-60 h-40 mt-96 bg-black'>
-        <h1 className='text-white ml-7 mt-4'>Click Button To Get Number</h1>
-        <p className='text w-16 text-center'>{sampleNumber}</p>
-        <button onClick={() => getRandomNumber()} className='text'>
-          Click Here
-        </button>
+      <div className='border-2 border-white w-60 pb-20 mt-96 bg-black text-center'>
+        <h1 className='text-white  mt-4'>Click Button To Get Number</h1>
+        <div className='center'>
+          <p className='text w-16 text-center'>{sampleNumber}</p>
+        </div>
+        <div className='center mt-5'>
+          <button onClick={() => getRandomNumber()} className='text'>
+            Click Here
+          </button>
+          <button
+            onClick={() => navigator.clipboard.writeText(sampleNumber)}
+            className='text'
+          >
+            Copy Number
+          </button>
+        </div>
       </div>
     </div>
   );
