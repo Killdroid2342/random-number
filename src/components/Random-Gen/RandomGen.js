@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const RandomGen = () => {
   const [sampleNumber, setSampleNumber] = useState();
@@ -7,8 +7,9 @@ const RandomGen = () => {
     let max = 9999;
     setSampleNumber(Math.round(Math.random() * (max - min) + min));
   };
-
-  document.title = 'Random Number';
+  useEffect(() => {
+    document.title = `Current Number Is ${sampleNumber}`;
+  });
   return (
     <div className='center'>
       <div className='border-2 border-white w-60 pb-20 mt-96 bg-black text-center'>
