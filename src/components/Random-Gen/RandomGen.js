@@ -7,6 +7,8 @@ const RandomGen = () => {
     let max = 9999;
     setSampleNumber(Math.round(Math.random() * (max - min) + min));
   };
+
+  document.title = 'Random Number';
   return (
     <div className='center'>
       <div className='border-2 border-white w-60 pb-20 mt-96 bg-black text-center'>
