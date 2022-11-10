@@ -10,7 +10,9 @@ const RandomGen = () => {
   return (
     <div className='center'>
       <div className='border-2 border-white w-60 pb-20 mt-96 bg-black text-center'>
-        <h1 className='text-white  mt-4'>Click Button To Get Number</h1>
+        <h1 className='text-white  mt-4 font-bold text-xl'>
+          Click Button To Get Number
+        </h1>
         <div className='center'>
           <p className='text w-16 text-center'>{sampleNumber}</p>
         </div>
