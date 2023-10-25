@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Random-Number
 
 This project is elegantly simple yet engaging, as it empowers users with the ability to click a button, creating a delightful element of surprise each time. With just a simple action, a random number will magically appear on the screen, adding a touch of excitement and intrigue to the user experience. This uncomplicated yet entertaining feature can be a source of fun and enjoyment, making it perfect for a variety of applications and interactive scenarios.
@@ -45,4 +47,6 @@ https://random-number-beta.vercel.app/
 
 ## Built With
 
-- React (JavaScript)
+- # React (JavaScript)
+  This app allows the user to generate any random number.
+  > > > > > > > 35ce13b473c454ac49ff54ab07e654e8946f2827
